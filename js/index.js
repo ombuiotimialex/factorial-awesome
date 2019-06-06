@@ -1,13 +1,18 @@
-function product() {
-    a = Number.parseInt(document.getElementById("a").value)
-    b = 1;
-    if (a == NaN) {
+function factorial() {
+    let a = Number.parseInt(document.getElementById("a").value)
+    var b = 1;
+
+    if (typeof a !== "number" && a < 1) {
         alert("Invalid input");
     } else {
-        for (i = a; i > 0; i--) {
+        for (var i = a; i > 0; i--) {
             b = b * i;
         }
 
-        document.getElementById("solution").value = a + "! =" + b;
+        let solution = document.getElementById("solution");
+
+        solution.style.visibility = "visible";
+
+        document.getElementById("solution").innerText = a + "! =" + b;
     }
 }
