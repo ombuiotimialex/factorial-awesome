@@ -2,9 +2,11 @@ function factorial() {
     let a = Number.parseInt(document.getElementById("a").value)
     var b = 1;
 
-    if (typeof a !== "number" && a < 1) {
+    if (a < 1) {
         alert("Invalid input");
-    } else {
+    } else if(typeof a==="string") {
+        alert("invalid input")
+    }else{
         for (var i = a; i > 0; i--) {
             b = b * i;
         }
