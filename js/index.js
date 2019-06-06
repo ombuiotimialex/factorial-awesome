@@ -9,6 +9,5 @@ function product() {
         }
 
         document.getElementById("solution").value = a + "! =" + b;
-
     }
 }
