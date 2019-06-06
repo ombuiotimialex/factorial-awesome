@@ -1,0 +1,15 @@
+.buttons-container {
+    margin: auto;
+    width: 300px;
+    border: 1px solid midnightblue;
+    height: 500px;
+    border-radius: 15px 15px;
+    box-shadow: #cccccc 2px 2px 5px 6px;
+    color: white;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
