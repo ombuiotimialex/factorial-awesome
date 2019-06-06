@@ -7,9 +7,28 @@
     box-shadow: #cccccc 2px 2px 5px 6px;
     color: white;
 }
+
 .circle {
     height: 50px;
     width: 50px;
     background-color: black;
     border-radius: 50%;
+}
+
+.coder {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    height: 1px;
+    border-radius: 10px 10px;
+}
+
+.solution {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px 10px;
+    visibility: hidden;
+    font-size: large;
 }
