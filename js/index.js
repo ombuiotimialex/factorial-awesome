@@ -3,6 +3,7 @@ function factorial() {
     var b = 1;
 
     if (a < 1) {
+    if (a < 1 || a === Number.NaN || (a - Math.round(a) != 0)) {
         alert("Invalid input");
     } else if(typeof a==="string") {
         alert("invalid input")
