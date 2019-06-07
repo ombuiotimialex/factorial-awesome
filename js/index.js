@@ -15,4 +15,4 @@ function factorial() {
 
         document.getElementById("solution").innerText = a + "! =" + b;
     }
-};
+}
